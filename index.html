@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css">
   <title>David Ross II - Porfolio</title>
 </head>
+
 <body>
   <header>
-    <a href="#default" class="logo">David Ross II</a>
+    <div class="h-logo">
+      <a href="#default" class="logo">David Ross II</a>
+    </div>
     <nav class="header-right">
       <a href="#about-me">About Me</a>
       <a href="#projects">Projects</a>
@@ -16,5 +20,97 @@
       <a href="#contact">Contact</a>
     </nav>
   </header>
+
+  <main>
+    <section class="about-me" id="about-me">
+      <div class="left-section">
+        <img src="./assets/profile-photo2.jpg" alt="" id="headshot">
+      </div>
+      <div class="right-section">
+        <div id="text">
+          <h1>Hello, <br /> I'm David Ross II</h1>
+          <p id="about-me-description">
+            I'm a 26yr old aspiring full-stack web developer based in Orlando, FL. I'm passionate about building modern,
+            user-focused applications from front to back. With a strong foundation in both design and development, I
+            enjoy turning ideas into responsive, functional websites that solve real-world problems. Whether it's
+            crafting intuitive user interfaces or architecting scalable backend solutions, I'm always learning and
+            pushing my skills forward.
+
+            <br /><br />Let’s build something great together!
+          </p>
+        </div>
+        <div id="about-me-logos">
+          <a href="#"><img src="./assets/skills/github.png" alt=""></a>
+          <a href="#"><img src="./assets/gmail.png" alt=""></a>
+          <a href="#"><img src="./assets/linkedin.png" alt=""></a>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="cards-section">
+        <div class="card">
+          <h3 class="card-title">Task Manager App</h3>
+          <p class="card-description">
+            A full-stack to-do app using React, Express, and PostgreSQL. Includes user auth and real-time updates.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Task Manager App</h3>
+          <p class="card-description">
+            A full-stack to-do app using React, Express, and PostgreSQL. Includes user auth and real-time updates.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Task Manager App</h3>
+          <p class="card-description">
+            A full-stack to-do app using React, Express, and PostgreSQL. Includes user auth and real-time updates.
+          </p>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Task Manager App</h3>
+          <p class="card-description">
+            A full-stack to-do app using React, Express, and PostgreSQL. Includes user auth and real-time updates.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="card" id="skills-card">
+        <div class="logos">
+          <img src="./assets/skills/cloud-computing.png" alt="">
+          <img src="./assets/skills/css-3.png" alt="">
+          <img src="./assets/skills/database-storage.png" alt="">
+          <img src="./assets/skills/github.png" alt="">
+          <img src="./assets/skills/html-5.png" alt="">
+          <img src="./assets/skills/js.png" alt="">
+          <img src="./assets/skills/nodejs.png" alt="">
+          <img src="./assets/skills/physics.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="contact-me">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-wrapper">
+        <div class="contact-line">
+          <a href="#"><img src="./assets/gmail.png" alt=""></a>
+          <p class="contact-text">dross98.official@gmail.com</p>
+        </div>
+        <div class="contact-line">
+          <a href="#"><img src="./assets/linkedin.png" alt=""></a>
+          <p class="contact-text">linkedin.com/david-ross-ii-6b6957175/</p>
+        </div>
+        <div class="contact-line">
+          <a href="#"><img src="./assets/skills/github.png" alt=""></a>
+          <p class="contact-text">https://github.com/dross365</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2025</p>
+  </footer>
 </body>
+
 </html>
