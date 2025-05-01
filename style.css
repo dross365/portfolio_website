@@ -161,6 +161,7 @@ p#about-me-description {
   margin: 60px auto;
   max-height: 120px;
   width: 85%;
+  flex-wrap: wrap;
 }
 
 .card-buttons {
@@ -374,8 +375,16 @@ footer p {
   .ham-menu {
     display: block;
   }
-
   #skills-card {
-    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    height: auto;
+  }
+
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:safe;
+    margin: 30px;
   }
 }
