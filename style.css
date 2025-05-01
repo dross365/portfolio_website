@@ -102,7 +102,7 @@ p#about-me-description {
 .card {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 336px;
   border-radius: 20px;
   background-color: #F7F6F3;
@@ -124,6 +124,42 @@ p#about-me-description {
   justify-self: center;
   max-height: 120px;
   width: 85%;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.card-buttons button {
+  width: 30%;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #40578C;
+  color: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.card-buttons button:hover {
+  color: rgb(211, 211, 211);
+  cursor: pointer;
+}
+
+.card-buttons button:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+.github-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.github-button img{
+  width: 40px;
 }
 
 .logos {
