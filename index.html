@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>David Ross II - Porfolio</title>
 </head>
 
@@ -18,10 +19,32 @@
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact-me">Contact</a>
+
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="off-screen-menu">
+        <ul>
+          <li id="hidden-about">About</li>
+          <li id="hidden-projects">Projects</li>
+          <li id="hidden-skills">Skills</li>
+          <li id="hidden-contact">Contact Me</li>
+        </ul>
+      </div>
     </nav>
+
   </header>
 
   <main>
+    <div class="mode">
+      <!-- <button id="light">Light Mode</button> -->
+      <i class="fa-solid fa-lightbulb" id="light"></i>
+      <!-- <button id="dark">Dark Mode</button> -->
+      <i class="fa-solid fa-moon" id="dark"></i>
+    </div>
     <section class="about-me" id="about-me">
       <div class="left-section">
         <img src="./assets/profile-photo2.jpg" alt="" id="headshot">
@@ -40,9 +63,9 @@
           </p>
         </div>
         <div id="about-me-logos">
-          <a href="#"><img src="./assets/skills/github.png" alt=""></a>
-          <a href="#"><img src="./assets/gmail.png" alt=""></a>
-          <a href="#"><img src="./assets/linkedin.png" alt=""></a>
+          <a href="#"><i class="fa-brands fa-github icon" id="github-icon"></i></a>
+          <a href="#"><i class="fa-solid fa-envelope icon" id="email-icon"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin icon" id="linkedin-icon"></i></a>
         </div>
       </div>
     </section>
@@ -50,52 +73,52 @@
       <h2 class="section-title">Projects</h2>
       <div class="cards-section">
         <div class="card">
-          <h3 class="card-title">Task Manager App</h3>
+          <h3 class="card-title">Task Manager App1</h3>
           <p class="card-description">
             A full-stack to-do app using React, Express, and PostgreSQL. Includes user auth and real-time updates.
           </p>
           <div class="card-buttons">
             <button class="github-button">
-              <img src="./assets/skills/github.png" alt="">
+              <i class="fa-brands fa-github icon" id="github-card-icon"></i>
               GitHub
             </button>
             <button class="live-demo">Live Demo</button>
           </div>
         </div>
         <div class="card">
-          <h3 class="card-title">Task Manager App</h3>
+          <h3 class="card-title">Task Manager App2</h3>
           <p class="card-description">
             A full-stack to-do app using React, Express, and PostgreSQL. Includes user auth and real-time updates.
           </p>
           <div class="card-buttons">
             <button class="github-button">
-              <img src="./assets/skills/github.png" alt="">
+              <i class="fa-brands fa-github icon" id="github-card-icon"></i>
               GitHub
             </button>
             <button class="live-demo">Live Demo</button>
           </div>
         </div>
         <div class="card">
-          <h3 class="card-title">Task Manager App</h3>
+          <h3 class="card-title">Task Manager App3</h3>
           <p class="card-description">
             A full-stack to-do app using React, Express, and PostgreSQL. Includes user auth and real-time updates.
           </p>
           <div class="card-buttons">
             <button class="github-button">
-              <img src="./assets/skills/github.png" alt="">
+              <i class="fa-brands fa-github icon" id="github-card-icon"></i>
               GitHub
             </button>
             <button class="live-demo">Live Demo</button>
           </div>
         </div>
         <div class="card">
-          <h3 class="card-title">Task Manager App</h3>
+          <h3 class="card-title">Task Manager App4</h3>
           <p class="card-description">
             A full-stack to-do app using React, Express, and PostgreSQL. Includes user auth and real-time updates.
           </p>
           <div class="card-buttons">
             <button class="github-button">
-              <img src="./assets/skills/github.png" alt="">
+              <i class="fa-brands fa-github icon" id="github-card-icon"></i>
               GitHub
             </button>
             <button class="live-demo">Live Demo</button>
@@ -110,7 +133,7 @@
           <a href="https://aws.amazon.com/free/?trk=fce796e8-4ceb-48e0-9767-89f7873fac3d&sc_channel=ps&ef_id=Cj0KCQjwlMfABhCWARIsADGXdy-1_gJT55feyLUd6vescgb8FMoL_B8wNxEPiSp6jA8NwvYhvx-AFcUaAq2OEALw_wcB:G:s&s_kwcid=AL!4422!3!432339156147!e!!g!!amazon%20web%20services!1644045032!68366401812&gad_campaignid=1644045032&gbraid=0AAAAADjHtp9glZ5wur0tDnDXVDmFV0-f1&gclid=Cj0KCQjwlMfABhCWARIsADGXdy-1_gJT55feyLUd6vescgb8FMoL_B8wNxEPiSp6jA8NwvYhvx-AFcUaAq2OEALw_wcB&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all" target="_blank"><img src="./assets/skills/cloud-computing.png" alt=""></a>
           <img src="./assets/skills/css-3.png" alt="">
           <a href="https://www.mongodb.com/" target="_blank"><img src="./assets/skills/database-storage.png" alt=""></a>
-          <a href="https://github.com/dross365" target="_blank"><img src="./assets/skills/github.png" alt=""></a>
+          <a href="https://github.com/dross365" target="_blank"><i class="fa-brands fa-github icon" id="github-skill-icon"></i></a>
           <img src="./assets/skills/html-5.png" alt="">
           <img src="./assets/skills/js.png" alt="">
           <a href="https://nodejs.org/en" target="_blank"><img src="./assets/skills/nodejs.png" alt=""></a>
@@ -139,6 +162,7 @@
   <footer>
     <p>Copyright &copy; 2025</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
