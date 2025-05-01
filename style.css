@@ -155,9 +155,10 @@ p#about-me-description {
 }
 
 #skills-card {
-  margin-top: 60px;
   display: flex;
   justify-self: center;
+  justify-content: center;
+  margin: 60px auto;
   max-height: 120px;
   width: 85%;
 }
